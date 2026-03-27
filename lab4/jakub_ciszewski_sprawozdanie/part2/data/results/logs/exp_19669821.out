@@ -1,0 +1,92 @@
+ gcccore/13.2.0 loaded.
+ zlib/1.2.13-gcccore-13.2.0 loaded.
+ binutils/2.40-gcccore-13.2.0 loaded.
+ gcc/13.2.0 loaded.
+ numactl/2.0.16-gcccore-13.2.0 loaded.
+ xz/5.4.4-gcccore-13.2.0 loaded.
+ libxml2/2.11.5-gcccore-13.2.0 loaded.
+ libpciaccess/0.17-gcccore-13.2.0 loaded.
+ hwloc/2.9.2-gcccore-13.2.0 loaded.
+ openssl/1.1 loaded.
+ libevent/2.1.12-gcccore-13.2.0 loaded.
+ ucx/1.15.0-gcccore-13.2.0 loaded.
+ libfabric/1.19.0-gcccore-13.2.0 loaded.
+ pmix/5.0.2-gcccore-13.2.0 loaded.
+ ucc/1.2.0-gcccore-13.2.0 loaded.
+ prrte/3.0.5-gcc-13.2.0 loaded.
+ openmpi/5.0.2-gcc-13.2.0 loaded.
+Uruchamiam powtórzenie nr: 2
+Rozpoczynam eksperyment nr: 2
+Zapisano: results/strong/small/result-1-2.csv (Czas: 0.064352 s)
+Zapisano: results/weak/small/result-1-2.csv (Czas: 0.005404 s)
+Zapisano: results/strong/small/result-2-2.csv (Czas: 0.032200 s)
+Zapisano: results/weak/small/result-2-2.csv (Czas: 0.005373 s)
+Zapisano: results/strong/small/result-3-2.csv (Czas: 0.021534 s)
+Zapisano: results/weak/small/result-3-2.csv (Czas: 0.005414 s)
+Zapisano: results/strong/small/result-4-2.csv (Czas: 0.016351 s)
+Zapisano: results/weak/small/result-4-2.csv (Czas: 0.005379 s)
+Zapisano: results/strong/small/result-5-2.csv (Czas: 0.013002 s)
+Zapisano: results/weak/small/result-5-2.csv (Czas: 0.005485 s)
+Zapisano: results/strong/small/result-6-2.csv (Czas: 0.010874 s)
+Zapisano: results/weak/small/result-6-2.csv (Czas: 0.005424 s)
+Zapisano: results/strong/small/result-7-2.csv (Czas: 0.009324 s)
+Zapisano: results/weak/small/result-7-2.csv (Czas: 0.005446 s)
+Zapisano: results/strong/small/result-8-2.csv (Czas: 0.008181 s)
+Zapisano: results/weak/small/result-8-2.csv (Czas: 0.005440 s)
+Zapisano: results/strong/small/result-9-2.csv (Czas: 0.007233 s)
+Zapisano: results/weak/small/result-9-2.csv (Czas: 0.005483 s)
+Zapisano: results/strong/small/result-10-2.csv (Czas: 0.006535 s)
+Zapisano: results/weak/small/result-10-2.csv (Czas: 0.005540 s)
+Zapisano: results/strong/small/result-11-2.csv (Czas: 0.005969 s)
+Zapisano: results/weak/small/result-11-2.csv (Czas: 0.005469 s)
+Zapisano: results/strong/small/result-12-2.csv (Czas: 0.005490 s)
+Zapisano: results/weak/small/result-12-2.csv (Czas: 0.005449 s)
+Zapisano: results/strong/medium/result-1-2.csv (Czas: 7.133013 s)
+Zapisano: results/weak/medium/result-1-2.csv (Czas: 0.580623 s)
+Zapisano: results/strong/medium/result-2-2.csv (Czas: 3.542825 s)
+Zapisano: results/weak/medium/result-2-2.csv (Czas: 0.579601 s)
+Zapisano: results/strong/medium/result-3-2.csv (Czas: 2.367665 s)
+Zapisano: results/weak/medium/result-3-2.csv (Czas: 0.581779 s)
+Zapisano: results/strong/medium/result-4-2.csv (Czas: 1.777076 s)
+Zapisano: results/weak/medium/result-4-2.csv (Czas: 0.584121 s)
+Zapisano: results/strong/medium/result-5-2.csv (Czas: 1.422499 s)
+Zapisano: results/weak/medium/result-5-2.csv (Czas: 0.581741 s)
+Zapisano: results/strong/medium/result-6-2.csv (Czas: 1.183566 s)
+Zapisano: results/weak/medium/result-6-2.csv (Czas: 0.583831 s)
+Zapisano: results/strong/medium/result-7-2.csv (Czas: 1.018928 s)
+Zapisano: results/weak/medium/result-7-2.csv (Czas: 0.580918 s)
+Zapisano: results/strong/medium/result-8-2.csv (Czas: 0.887697 s)
+Zapisano: results/weak/medium/result-8-2.csv (Czas: 0.582861 s)
+Zapisano: results/strong/medium/result-9-2.csv (Czas: 0.788621 s)
+Zapisano: results/weak/medium/result-9-2.csv (Czas: 0.582823 s)
+Zapisano: results/strong/medium/result-10-2.csv (Czas: 0.711865 s)
+Zapisano: results/weak/medium/result-10-2.csv (Czas: 0.581351 s)
+Zapisano: results/strong/medium/result-11-2.csv (Czas: 0.645717 s)
+Zapisano: results/weak/medium/result-11-2.csv (Czas: 0.581002 s)
+Zapisano: results/strong/medium/result-12-2.csv (Czas: 0.592875 s)
+Zapisano: results/weak/medium/result-12-2.csv (Czas: 0.584917 s)
+Zapisano: results/strong/big/result-1-2.csv (Czas: 773.995139 s)
+Zapisano: results/weak/big/result-1-2.csv (Czas: 64.568301 s)
+Zapisano: results/strong/big/result-2-2.csv (Czas: 387.135847 s)
+Zapisano: results/weak/big/result-2-2.csv (Czas: 65.207315 s)
+Zapisano: results/strong/big/result-3-2.csv (Czas: 259.609720 s)
+Zapisano: results/weak/big/result-3-2.csv (Czas: 64.411111 s)
+Zapisano: results/strong/big/result-4-2.csv (Czas: 193.441008 s)
+Zapisano: results/weak/big/result-4-2.csv (Czas: 64.645164 s)
+Zapisano: results/strong/big/result-5-2.csv (Czas: 154.981817 s)
+Zapisano: results/weak/big/result-5-2.csv (Czas: 64.587543 s)
+Zapisano: results/strong/big/result-6-2.csv (Czas: 129.554796 s)
+Zapisano: results/weak/big/result-6-2.csv (Czas: 64.543146 s)
+Zapisano: results/strong/big/result-7-2.csv (Czas: 111.135950 s)
+Zapisano: results/weak/big/result-7-2.csv (Czas: 64.571526 s)
+Zapisano: results/strong/big/result-8-2.csv (Czas: 96.799726 s)
+Zapisano: results/weak/big/result-8-2.csv (Czas: 64.565761 s)
+Zapisano: results/strong/big/result-9-2.csv (Czas: 86.116639 s)
+Zapisano: results/weak/big/result-9-2.csv (Czas: 64.669746 s)
+Zapisano: results/strong/big/result-10-2.csv (Czas: 77.483592 s)
+Zapisano: results/weak/big/result-10-2.csv (Czas: 64.927705 s)
+Zapisano: results/strong/big/result-11-2.csv (Czas: 70.707698 s)
+Zapisano: results/weak/big/result-11-2.csv (Czas: 64.856347 s)
+Zapisano: results/strong/big/result-12-2.csv (Czas: 64.729172 s)
+Zapisano: results/weak/big/result-12-2.csv (Czas: 64.783726 s)
+Koniec powtórzenia nr 2.
