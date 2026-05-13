@@ -1,0 +1,604 @@
+ gcccore/13.2.0 loaded.
+ zlib/1.2.13-gcccore-13.2.0 loaded.
+ binutils/2.40-gcccore-13.2.0 loaded.
+ gcc/13.2.0 loaded.
+=== THREADS: 2 ===
+--- Variant 2 ---
+Times for (LOCKS): size: 2000000000; threads: 2; buckets: 100
+[VERIFICATION] Success: Sorted, Count matches (2000000000), Sum matches (delta: -2.673750e+02)
+[Iteration 1] time: 304.038900 [s]
+---; 5.775287; 77.206209; 213.043374; 2.733696; 304.038900
+
+--- Variant 2 ALIGNED ---
+Times for (LOCKS): size: 2000000000; threads: 2; buckets: 100
+[VERIFICATION] Success: Sorted, Count matches (2000000000), Sum matches (delta: -2.673750e+02)
+[Iteration 1] time: 307.169809 [s]
+---; 5.765676; 63.034649; 230.596694; 2.492654; 307.169809
+
+--- Variant 4 ---
+Times for: size: 2000000000; threads: 2; buckets: 100
+[VERIFICATION] Success: Sorted, Count matches (2000000000), Sum matches (delta: -2.673750e+02)
+[Iteration 1] time: 300.499750 [s]
+---; 5.775332; 71.722054; 215.003522; 2.719366; 300.499750
+
+--- Variant 4 ALIGNED ---
+Times for: size: 2000000000; threads: 2; buckets: 100
+[VERIFICATION] Success: Sorted, Count matches (2000000000), Sum matches (delta: -2.673750e+02)
+[Iteration 1] time: 289.813530 [s]
+---; 5.762282; 64.398672; 211.603270; 2.769990; 289.813530
+
+=== THREADS: 4 ===
+--- Variant 2 ---
+Times for (LOCKS): size: 2000000000; threads: 4; buckets: 100
+[VERIFICATION] Success: Sorted, Count matches (2000000000), Sum matches (delta: -3.245000e+02)
+[Iteration 1] time: 254.021203 [s]
+---; 2.888224; 134.191034; 110.141171; 1.460919; 254.021203
+
+--- Variant 2 ALIGNED ---
+Times for (LOCKS): size: 2000000000; threads: 4; buckets: 100
+[VERIFICATION] Success: Sorted, Count matches (2000000000), Sum matches (delta: -5.267500e+02)
+[Iteration 1] time: 222.535258 [s]
+---; 2.894618; 93.962151; 118.997015; 1.342252; 222.535258
+
+--- Variant 4 ---
+Times for: size: 2000000000; threads: 4; buckets: 100
+[VERIFICATION] Success: Sorted, Count matches (2000000000), Sum matches (delta: -4.052500e+02)
+[Iteration 1] time: 244.536429 [s]
+---; 2.903536; 125.399148; 109.442911; 1.448471; 244.536429
+
+--- Variant 4 ALIGNED ---
+Times for: size: 2000000000; threads: 4; buckets: 100
+[VERIFICATION] Success: Sorted, Count matches (2000000000), Sum matches (delta: -3.838750e+02)
+[Iteration 1] time: 219.260892 [s]
+---; 2.893622; 99.775036; 109.772767; 1.478157; 219.260892
+
+=== THREADS: 6 ===
+--- Variant 2 ---
+Times for (LOCKS): size: 2000000000; threads: 6; buckets: 100
+[VERIFICATION] Success: Sorted, Count matches (2000000000), Sum matches (delta: -2.700000e+01)
+[Iteration 1] time: 207.255932 [s]
+---; 1.936586; 123.290890; 75.599080; 0.965826; 207.255932
+
+--- Variant 2 ALIGNED ---
+Times for (LOCKS): size: 2000000000; threads: 6; buckets: 100
+[VERIFICATION] Success: Sorted, Count matches (2000000000), Sum matches (delta: 1.336250e+02)
+[Iteration 1] time: 166.163815 [s]
+---; 1.937364; 75.572493; 82.379657; 0.929842; 166.163815
+
+--- Variant 4 ---
+Times for: size: 2000000000; threads: 6; buckets: 100
+[VERIFICATION] Success: Sorted, Count matches (2000000000), Sum matches (delta: -2.552500e+02)
+[Iteration 1] time: 185.824650 [s]
+---; 1.939122; 101.979468; 75.565923; 1.004836; 185.824650
+
+--- Variant 4 ALIGNED ---
+Times for: size: 2000000000; threads: 6; buckets: 100
+[VERIFICATION] Success: Sorted, Count matches (2000000000), Sum matches (delta: 2.687500e+01)
+[Iteration 1] time: 160.785348 [s]
+---; 1.934340; 77.355872; 75.166571; 0.983621; 160.785348
+
+=== THREADS: 8 ===
+--- Variant 2 ---
+Times for (LOCKS): size: 2000000000; threads: 8; buckets: 100
+[VERIFICATION] Success: Sorted, Count matches (2000000000), Sum matches (delta: -3.353750e+02)
+[Iteration 1] time: 181.960410 [s]
+---; 1.472385; 116.677903; 57.677172; 0.792000; 181.960410
+
+--- Variant 2 ALIGNED ---
+Times for (LOCKS): size: 2000000000; threads: 8; buckets: 100
+[VERIFICATION] Success: Sorted, Count matches (2000000000), Sum matches (delta: -5.358750e+02)
+[Iteration 1] time: 138.326245 [s]
+---; 1.455030; 67.095180; 63.721917; 0.713690; 138.326245
+
+--- Variant 4 ---
+Times for: size: 2000000000; threads: 8; buckets: 100
+[VERIFICATION] Success: Sorted, Count matches (2000000000), Sum matches (delta: 3.237500e+01)
+[Iteration 1] time: 152.144635 [s]
+---; 1.458248; 86.437998; 58.133828; 0.769920; 152.144635
+
+--- Variant 4 ALIGNED ---
+Times for: size: 2000000000; threads: 8; buckets: 100
+[VERIFICATION] Success: Sorted, Count matches (2000000000), Sum matches (delta: -6.616250e+02)
+[Iteration 1] time: 130.167634 [s]
+---; 1.454149; 64.509147; 58.067603; 0.798587; 130.167634
+
+=== THREADS: 10 ===
+--- Variant 2 ---
+Times for (LOCKS): size: 2000000000; threads: 10; buckets: 100
+[VERIFICATION] Success: Sorted, Count matches (2000000000), Sum matches (delta: -1.386250e+02)
+[Iteration 1] time: 163.556991 [s]
+---; 1.167881; 111.579683; 44.838395; 0.623995; 163.556991
+
+--- Variant 2 ALIGNED ---
+Times for (LOCKS): size: 2000000000; threads: 10; buckets: 100
+[VERIFICATION] Success: Sorted, Count matches (2000000000), Sum matches (delta: -1.130000e+02)
+[Iteration 1] time: 117.001585 [s]
+---; 1.168081; 60.786492; 49.102137; 0.590726; 117.001585
+
+--- Variant 4 ---
+Times for: size: 2000000000; threads: 10; buckets: 100
+[VERIFICATION] Success: Sorted, Count matches (2000000000), Sum matches (delta: 2.292500e+02)
+[Iteration 1] time: 129.688787 [s]
+---; 1.170361; 77.664397; 44.886677; 0.631060; 129.688787
+
+--- Variant 4 ALIGNED ---
+Times for: size: 2000000000; threads: 10; buckets: 100
+[VERIFICATION] Success: Sorted, Count matches (2000000000), Sum matches (delta: 9.050000e+01)
+[Iteration 1] time: 109.210822 [s]
+---; 1.184243; 57.338171; 44.726216; 0.626212; 109.210822
+
+=== THREADS: 12 ===
+--- Variant 2 ---
+Times for (LOCKS): size: 2000000000; threads: 12; buckets: 100
+[VERIFICATION] Success: Sorted, Count matches (2000000000), Sum matches (delta: 3.450000e+01)
+[Iteration 1] time: 154.470163 [s]
+---; 0.976476; 107.055876; 40.534738; 0.560528; 154.470163
+
+--- Variant 2 ALIGNED ---
+Times for (LOCKS): size: 2000000000; threads: 12; buckets: 100
+[VERIFICATION] Success: Sorted, Count matches (2000000000), Sum matches (delta: 7.421250e+02)
+[Iteration 1] time: 108.361479 [s]
+---; 0.975886; 57.255903; 44.246238; 0.530419; 108.361479
+
+--- Variant 4 ---
+Times for: size: 2000000000; threads: 12; buckets: 100
+[VERIFICATION] Success: Sorted, Count matches (2000000000), Sum matches (delta: -1.695000e+02)
+[Iteration 1] time: 117.713769 [s]
+---; 0.976482; 70.226772; 40.624230; 0.545004; 117.713769
+
+--- Variant 4 ALIGNED ---
+Times for: size: 2000000000; threads: 12; buckets: 100
+[VERIFICATION] Success: Sorted, Count matches (2000000000), Sum matches (delta: 1.877500e+02)
+[Iteration 1] time: 98.372062 [s]
+---; 0.974556; 50.886521; 40.593777; 0.577834; 98.372062
+
+=== THREADS: 14 ===
+--- Variant 2 ---
+Times for (LOCKS): size: 2000000000; threads: 14; buckets: 100
+[VERIFICATION] Success: Sorted, Count matches (2000000000), Sum matches (delta: 7.607500e+02)
+[Iteration 1] time: 143.481171 [s]
+---; 0.839897; 100.992837; 35.805331; 0.505265; 143.481171
+
+--- Variant 2 ALIGNED ---
+Times for (LOCKS): size: 2000000000; threads: 14; buckets: 100
+[VERIFICATION] Success: Sorted, Count matches (2000000000), Sum matches (delta: 6.507500e+02)
+[Iteration 1] time: 99.457378 [s]
+---; 0.848221; 53.611715; 39.162743; 0.487068; 99.457378
+
+--- Variant 4 ---
+Times for: size: 2000000000; threads: 14; buckets: 100
+[VERIFICATION] Success: Sorted, Count matches (2000000000), Sum matches (delta: 4.525000e+02)
+[Iteration 1] time: 108.114708 [s]
+---; 0.848947; 65.492675; 35.919069; 0.516249; 108.114708
+
+--- Variant 4 ALIGNED ---
+Times for: size: 2000000000; threads: 14; buckets: 100
+[VERIFICATION] Success: Sorted, Count matches (2000000000), Sum matches (delta: 4.072500e+02)
+[Iteration 1] time: 88.885604 [s]
+---; 0.841933; 46.323682; 35.857095; 0.525338; 88.885604
+
+=== THREADS: 16 ===
+--- Variant 2 ---
+Times for (LOCKS): size: 2000000000; threads: 16; buckets: 100
+[VERIFICATION] Success: Sorted, Count matches (2000000000), Sum matches (delta: -7.502500e+02)
+[Iteration 1] time: 134.155385 [s]
+---; 0.735413; 96.277327; 31.350466; 0.450010; 134.155385
+
+--- Variant 2 ALIGNED ---
+Times for (LOCKS): size: 2000000000; threads: 16; buckets: 100
+[VERIFICATION] Success: Sorted, Count matches (2000000000), Sum matches (delta: -9.212500e+01)
+[Iteration 1] time: 93.292143 [s]
+---; 0.736423; 52.423789; 34.330325; 0.460356; 93.292143
+
+--- Variant 4 ---
+Times for: size: 2000000000; threads: 16; buckets: 100
+[VERIFICATION] Success: Sorted, Count matches (2000000000), Sum matches (delta: -6.887500e+01)
+[Iteration 1] time: 99.206069 [s]
+---; 0.745835; 61.123162; 31.505557; 0.479360; 99.206069
+
+--- Variant 4 ALIGNED ---
+Times for: size: 2000000000; threads: 16; buckets: 100
+[VERIFICATION] Success: Sorted, Count matches (2000000000), Sum matches (delta: 5.416250e+02)
+[Iteration 1] time: 80.655901 [s]
+---; 0.744228; 42.813394; 31.291005; 0.463965; 80.655901
+
+=== THREADS: 18 ===
+--- Variant 2 ---
+Times for (LOCKS): size: 2000000000; threads: 18; buckets: 100
+[VERIFICATION] Success: Sorted, Count matches (2000000000), Sum matches (delta: 4.785000e+02)
+[Iteration 1] time: 126.458859 [s]
+---; 0.658482; 92.841157; 27.153526; 0.458032; 126.458859
+
+--- Variant 2 ALIGNED ---
+Times for (LOCKS): size: 2000000000; threads: 18; buckets: 100
+[VERIFICATION] Success: Sorted, Count matches (2000000000), Sum matches (delta: -3.580000e+02)
+[Iteration 1] time: 86.918793 [s]
+---; 0.656399; 50.908419; 29.602388; 0.410498; 86.918793
+
+--- Variant 4 ---
+Times for: size: 2000000000; threads: 18; buckets: 100
+[VERIFICATION] Success: Sorted, Count matches (2000000000), Sum matches (delta: -1.560000e+02)
+[Iteration 1] time: 91.898138 [s]
+---; 0.660609; 58.294506; 27.169440; 0.437955; 91.898138
+
+--- Variant 4 ALIGNED ---
+Times for: size: 2000000000; threads: 18; buckets: 100
+[VERIFICATION] Success: Sorted, Count matches (2000000000), Sum matches (delta: 2.271250e+02)
+[Iteration 1] time: 73.888033 [s]
+---; 0.662244; 40.333242; 27.115169; 0.440837; 73.888033
+
+=== THREADS: 20 ===
+--- Variant 2 ---
+Times for (LOCKS): size: 2000000000; threads: 20; buckets: 100
+[VERIFICATION] Success: Sorted, Count matches (2000000000), Sum matches (delta: -9.048750e+02)
+[Iteration 1] time: 119.636998 [s]
+---; 0.593553; 90.618967; 22.702234; 0.386206; 119.636998
+
+--- Variant 2 ALIGNED ---
+Times for (LOCKS): size: 2000000000; threads: 20; buckets: 100
+[VERIFICATION] Success: Sorted, Count matches (2000000000), Sum matches (delta: 5.625000e+00)
+[Iteration 1] time: 80.889686 [s]
+---; 0.591790; 49.843199; 24.718538; 0.400911; 80.889686
+
+--- Variant 4 ---
+Times for: size: 2000000000; threads: 20; buckets: 100
+[VERIFICATION] Success: Sorted, Count matches (2000000000), Sum matches (delta: -2.383750e+02)
+[Iteration 1] time: 85.561481 [s]
+---; 0.594211; 56.547961; 22.657100; 0.427289; 85.561481
+
+--- Variant 4 ALIGNED ---
+Times for: size: 2000000000; threads: 20; buckets: 100
+[VERIFICATION] Success: Sorted, Count matches (2000000000), Sum matches (delta: 1.330000e+02)
+[Iteration 1] time: 66.912411 [s]
+---; 0.591579; 37.934417; 22.637615; 0.412375; 66.912411
+
+=== THREADS: 22 ===
+--- Variant 2 ---
+Times for (LOCKS): size: 2000000000; threads: 22; buckets: 100
+[VERIFICATION] Success: Sorted, Count matches (2000000000), Sum matches (delta: -8.060000e+02)
+[Iteration 1] time: 117.371022 [s]
+---; 0.539944; 88.361544; 22.698076; 0.437210; 117.371022
+
+--- Variant 2 ALIGNED ---
+Times for (LOCKS): size: 2000000000; threads: 22; buckets: 100
+[VERIFICATION] Success: Sorted, Count matches (2000000000), Sum matches (delta: 1.060000e+03)
+[Iteration 1] time: 79.694357 [s]
+---; 0.540617; 48.601494; 24.815500; 0.401573; 79.694357
+
+--- Variant 4 ---
+Times for: size: 2000000000; threads: 22; buckets: 100
+[VERIFICATION] Success: Sorted, Count matches (2000000000), Sum matches (delta: -4.693750e+02)
+[Iteration 1] time: 83.424508 [s]
+---; 0.540523; 54.232829; 22.759770; 0.447343; 83.424508
+
+--- Variant 4 ALIGNED ---
+Times for: size: 2000000000; threads: 22; buckets: 100
+[VERIFICATION] Success: Sorted, Count matches (2000000000), Sum matches (delta: -5.481250e+02)
+[Iteration 1] time: 65.078779 [s]
+---; 0.539284; 36.124852; 22.652183; 0.423536; 65.078779
+
+=== THREADS: 24 ===
+--- Variant 2 ---
+Times for (LOCKS): size: 2000000000; threads: 24; buckets: 100
+[VERIFICATION] Success: Sorted, Count matches (2000000000), Sum matches (delta: -9.237500e+01)
+[Iteration 1] time: 115.245915 [s]
+---; 0.497065; 86.322875; 22.661251; 0.422640; 115.245915
+
+--- Variant 2 ALIGNED ---
+Times for (LOCKS): size: 2000000000; threads: 24; buckets: 100
+[VERIFICATION] Success: Sorted, Count matches (2000000000), Sum matches (delta: -3.697500e+02)
+[Iteration 1] time: 78.642433 [s]
+---; 0.496585; 47.705902; 24.698776; 0.396617; 78.642433
+
+--- Variant 4 ---
+Times for: size: 2000000000; threads: 24; buckets: 100
+[VERIFICATION] Success: Sorted, Count matches (2000000000), Sum matches (delta: 7.968750e+02)
+[Iteration 1] time: 82.388811 [s]
+---; 0.498329; 53.372310; 22.708175; 0.470816; 82.388811
+
+--- Variant 4 ALIGNED ---
+Times for: size: 2000000000; threads: 24; buckets: 100
+[VERIFICATION] Success: Sorted, Count matches (2000000000), Sum matches (delta: -3.662500e+01)
+[Iteration 1] time: 63.713008 [s]
+---; 0.497119; 34.794690; 22.698205; 0.383623; 63.713008
+
+=== THREADS: 26 ===
+--- Variant 2 ---
+Times for (LOCKS): size: 2000000000; threads: 26; buckets: 100
+[VERIFICATION] Success: Sorted, Count matches (2000000000), Sum matches (delta: 3.070000e+02)
+[Iteration 1] time: 109.896232 [s]
+---; 0.460479; 85.445459; 18.261235; 0.386069; 109.896232
+
+--- Variant 2 ALIGNED ---
+Times for (LOCKS): size: 2000000000; threads: 26; buckets: 100
+[VERIFICATION] Success: Sorted, Count matches (2000000000), Sum matches (delta: -7.462500e+01)
+[Iteration 1] time: 73.198035 [s]
+---; 0.463570; 47.058790; 19.882115; 0.441300; 73.198035
+
+--- Variant 4 ---
+Times for: size: 2000000000; threads: 26; buckets: 100
+[VERIFICATION] Success: Sorted, Count matches (2000000000), Sum matches (delta: 1.217500e+02)
+[Iteration 1] time: 76.943567 [s]
+---; 0.463170; 52.497494; 18.231867; 0.411335; 76.943567
+
+--- Variant 4 ALIGNED ---
+Times for: size: 2000000000; threads: 26; buckets: 100
+[VERIFICATION] Success: Sorted, Count matches (2000000000), Sum matches (delta: 5.912500e+02)
+[Iteration 1] time: 57.568093 [s]
+---; 0.460081; 33.206542; 18.198332; 0.363882; 57.568093
+
+=== THREADS: 28 ===
+--- Variant 2 ---
+Times for (LOCKS): size: 2000000000; threads: 28; buckets: 100
+[VERIFICATION] Success: Sorted, Count matches (2000000000), Sum matches (delta: 8.362500e+01)
+[Iteration 1] time: 109.982056 [s]
+---; 0.433916; 85.551029; 18.251915; 0.400106; 109.982056
+
+--- Variant 2 ALIGNED ---
+Times for (LOCKS): size: 2000000000; threads: 28; buckets: 100
+[VERIFICATION] Success: Sorted, Count matches (2000000000), Sum matches (delta: 7.061250e+02)
+[Iteration 1] time: 72.694057 [s]
+---; 0.430282; 46.549492; 19.966979; 0.400335; 72.694057
+
+--- Variant 4 ---
+Times for: size: 2000000000; threads: 28; buckets: 100
+[VERIFICATION] Success: Sorted, Count matches (2000000000), Sum matches (delta: 1.472625e+03)
+[Iteration 1] time: 75.963796 [s]
+---; 0.429608; 51.397079; 18.307730; 0.482018; 75.963796
+
+--- Variant 4 ALIGNED ---
+Times for: size: 2000000000; threads: 28; buckets: 100
+[VERIFICATION] Success: Sorted, Count matches (2000000000), Sum matches (delta: 1.009500e+03)
+[Iteration 1] time: 55.872701 [s]
+---; 0.433830; 31.373444; 18.261071; 0.448253; 55.872701
+
+=== THREADS: 30 ===
+--- Variant 2 ---
+Times for (LOCKS): size: 2000000000; threads: 30; buckets: 100
+[VERIFICATION] Success: Sorted, Count matches (2000000000), Sum matches (delta: 4.847500e+02)
+[Iteration 1] time: 108.847044 [s]
+---; 0.402875; 84.418250; 18.272090; 0.407789; 108.847044
+
+--- Variant 2 ALIGNED ---
+Times for (LOCKS): size: 2000000000; threads: 30; buckets: 100
+[VERIFICATION] Success: Sorted, Count matches (2000000000), Sum matches (delta: 3.118750e+02)
+[Iteration 1] time: 72.582745 [s]
+---; 0.402358; 46.414834; 19.981004; 0.430745; 72.582745
+
+--- Variant 4 ---
+Times for: size: 2000000000; threads: 30; buckets: 100
+[VERIFICATION] Success: Sorted, Count matches (2000000000), Sum matches (delta: 7.698750e+02)
+[Iteration 1] time: 75.218798 [s]
+---; 0.402606; 50.733452; 18.305808; 0.425678; 75.218798
+
+--- Variant 4 ALIGNED ---
+Times for: size: 2000000000; threads: 30; buckets: 100
+[VERIFICATION] Success: Sorted, Count matches (2000000000), Sum matches (delta: -1.816250e+02)
+[Iteration 1] time: 55.459545 [s]
+---; 0.401875; 31.074002; 18.211074; 0.428745; 55.459545
+
+=== THREADS: 32 ===
+--- Variant 2 ---
+Times for (LOCKS): size: 2000000000; threads: 32; buckets: 100
+[VERIFICATION] Success: Sorted, Count matches (2000000000), Sum matches (delta: -7.105000e+02)
+[Iteration 1] time: 109.191648 [s]
+---; 0.382891; 84.725791; 18.279967; 0.461536; 109.191648
+
+--- Variant 2 ALIGNED ---
+Times for (LOCKS): size: 2000000000; threads: 32; buckets: 100
+[VERIFICATION] Success: Sorted, Count matches (2000000000), Sum matches (delta: 8.020000e+02)
+[Iteration 1] time: 71.946059 [s]
+---; 0.378269; 45.784147; 19.978495; 0.460625; 71.946059
+
+--- Variant 4 ---
+Times for: size: 2000000000; threads: 32; buckets: 100
+[VERIFICATION] Success: Sorted, Count matches (2000000000), Sum matches (delta: 4.307500e+02)
+[Iteration 1] time: 73.913130 [s]
+---; 0.382148; 49.536692; 18.197579; 0.454893; 73.913130
+
+--- Variant 4 ALIGNED ---
+Times for: size: 2000000000; threads: 32; buckets: 100
+[VERIFICATION] Success: Sorted, Count matches (2000000000), Sum matches (delta: 4.245000e+02)
+[Iteration 1] time: 54.940371 [s]
+---; 0.378920; 30.502523; 18.207321; 0.409208; 54.940371
+
+=== THREADS: 34 ===
+--- Variant 2 ---
+Times for (LOCKS): size: 2000000000; threads: 34; buckets: 100
+[VERIFICATION] Success: Sorted, Count matches (2000000000), Sum matches (delta: 9.062500e+01)
+[Iteration 1] time: 109.801931 [s]
+---; 0.359132; 89.830496; 13.897123; 0.374756; 109.801931
+
+--- Variant 2 ALIGNED ---
+Times for (LOCKS): size: 2000000000; threads: 34; buckets: 100
+[VERIFICATION] Success: Sorted, Count matches (2000000000), Sum matches (delta: 2.213750e+02)
+[Iteration 1] time: 66.744035 [s]
+---; 0.357290; 45.488153; 15.166604; 0.393300; 66.744035
+
+--- Variant 4 ---
+Times for: size: 2000000000; threads: 34; buckets: 100
+[VERIFICATION] Success: Sorted, Count matches (2000000000), Sum matches (delta: 2.497500e+02)
+[Iteration 1] time: 69.754360 [s]
+---; 0.360947; 49.724828; 13.942403; 0.382281; 69.754360
+
+--- Variant 4 ALIGNED ---
+Times for: size: 2000000000; threads: 34; buckets: 100
+[VERIFICATION] Success: Sorted, Count matches (2000000000), Sum matches (delta: -5.425000e+01)
+[Iteration 1] time: 49.751741 [s]
+---; 0.358572; 29.759445; 13.901740; 0.392488; 49.751741
+
+=== THREADS: 36 ===
+--- Variant 2 ---
+Times for (LOCKS): size: 2000000000; threads: 36; buckets: 100
+[VERIFICATION] Success: Sorted, Count matches (2000000000), Sum matches (delta: -1.860000e+02)
+[Iteration 1] time: 123.059541 [s]
+---; 0.340872; 103.056312; 13.947721; 0.374415; 123.059541
+
+--- Variant 2 ALIGNED ---
+Times for (LOCKS): size: 2000000000; threads: 36; buckets: 100
+[VERIFICATION] Success: Sorted, Count matches (2000000000), Sum matches (delta: -1.107500e+03)
+[Iteration 1] time: 65.804475 [s]
+---; 0.345410; 44.484315; 15.254941; 0.378946; 65.804475
+
+--- Variant 4 ---
+Times for: size: 2000000000; threads: 36; buckets: 100
+[VERIFICATION] Success: Sorted, Count matches (2000000000), Sum matches (delta: 1.245625e+03)
+[Iteration 1] time: 68.858005 [s]
+---; 0.339924; 48.793219; 13.989150; 0.396648; 68.858005
+
+--- Variant 4 ALIGNED ---
+Times for: size: 2000000000; threads: 36; buckets: 100
+[VERIFICATION] Success: Sorted, Count matches (2000000000), Sum matches (delta: 2.143750e+02)
+[Iteration 1] time: 49.163616 [s]
+---; 0.339894; 29.179975; 13.874874; 0.428375; 49.163616
+
+=== THREADS: 38 ===
+--- Variant 2 ---
+Times for (LOCKS): size: 2000000000; threads: 38; buckets: 100
+[VERIFICATION] Success: Sorted, Count matches (2000000000), Sum matches (delta: 6.855000e+02)
+[Iteration 1] time: 117.588685 [s]
+---; 0.325606; 97.501357; 13.995706; 0.414877; 117.588685
+
+--- Variant 2 ALIGNED ---
+Times for (LOCKS): size: 2000000000; threads: 38; buckets: 100
+[VERIFICATION] Success: Sorted, Count matches (2000000000), Sum matches (delta: -4.416250e+02)
+[Iteration 1] time: 65.735365 [s]
+---; 0.325048; 44.323617; 15.318458; 0.422077; 65.735365
+
+--- Variant 4 ---
+Times for: size: 2000000000; threads: 38; buckets: 100
+[VERIFICATION] Success: Sorted, Count matches (2000000000), Sum matches (delta: -1.368750e+02)
+[Iteration 1] time: 68.382038 [s]
+---; 0.325934; 48.210308; 13.960889; 0.407323; 68.382038
+
+--- Variant 4 ALIGNED ---
+Times for: size: 2000000000; threads: 38; buckets: 100
+[VERIFICATION] Success: Sorted, Count matches (2000000000), Sum matches (delta: 4.525000e+01)
+[Iteration 1] time: 49.229261 [s]
+---; 0.324361; 29.054977; 14.067560; 0.433555; 49.229261
+
+=== THREADS: 40 ===
+--- Variant 2 ---
+Times for (LOCKS): size: 2000000000; threads: 40; buckets: 100
+[VERIFICATION] Success: Sorted, Count matches (2000000000), Sum matches (delta: 6.210000e+02)
+[Iteration 1] time: 125.865308 [s]
+---; 0.311463; 105.708035; 14.090335; 0.410452; 125.865308
+
+--- Variant 2 ALIGNED ---
+Times for (LOCKS): size: 2000000000; threads: 40; buckets: 100
+[VERIFICATION] Success: Sorted, Count matches (2000000000), Sum matches (delta: -9.223750e+02)
+[Iteration 1] time: 65.350059 [s]
+---; 0.312316; 43.861667; 15.432791; 0.387809; 65.350059
+
+--- Variant 4 ---
+Times for: size: 2000000000; threads: 40; buckets: 100
+[VERIFICATION] Success: Sorted, Count matches (2000000000), Sum matches (delta: -1.745000e+02)
+[Iteration 1] time: 67.583327 [s]
+---; 0.312677; 47.446409; 14.077900; 0.397957; 67.583327
+
+--- Variant 4 ALIGNED ---
+Times for: size: 2000000000; threads: 40; buckets: 100
+[VERIFICATION] Success: Sorted, Count matches (2000000000), Sum matches (delta: 3.893750e+02)
+[Iteration 1] time: 48.664581 [s]
+---; 0.310992; 28.554863; 14.017364; 0.426325; 48.664581
+
+=== THREADS: 42 ===
+--- Variant 2 ---
+Times for (LOCKS): size: 2000000000; threads: 42; buckets: 100
+[VERIFICATION] Success: Sorted, Count matches (2000000000), Sum matches (delta: -4.616250e+02)
+[Iteration 1] time: 139.282003 [s]
+---; 0.300975; 119.048933; 14.134139; 0.450287; 139.282003
+
+--- Variant 2 ALIGNED ---
+Times for (LOCKS): size: 2000000000; threads: 42; buckets: 100
+[VERIFICATION] Success: Sorted, Count matches (2000000000), Sum matches (delta: 9.475000e+01)
+[Iteration 1] time: 65.109301 [s]
+---; 0.303383; 43.563287; 15.473893; 0.422603; 65.109301
+
+--- Variant 4 ---
+Times for: size: 2000000000; threads: 42; buckets: 100
+[VERIFICATION] Success: Sorted, Count matches (2000000000), Sum matches (delta: -1.272500e+02)
+[Iteration 1] time: 67.869721 [s]
+---; 0.301423; 47.500021; 14.322841; 0.412101; 67.869721
+
+--- Variant 4 ALIGNED ---
+Times for: size: 2000000000; threads: 42; buckets: 100
+[VERIFICATION] Success: Sorted, Count matches (2000000000), Sum matches (delta: 4.801250e+02)
+[Iteration 1] time: 49.006771 [s]
+---; 0.301444; 28.601265; 14.328993; 0.430339; 49.006771
+
+=== THREADS: 44 ===
+--- Variant 2 ---
+Times for (LOCKS): size: 2000000000; threads: 44; buckets: 100
+[VERIFICATION] Success: Sorted, Count matches (2000000000), Sum matches (delta: -1.612500e+02)
+[Iteration 1] time: 139.005634 [s]
+---; 0.291618; 118.675014; 14.286039; 0.408726; 139.005634
+
+--- Variant 2 ALIGNED ---
+Times for (LOCKS): size: 2000000000; threads: 44; buckets: 100
+[VERIFICATION] Success: Sorted, Count matches (2000000000), Sum matches (delta: 6.336250e+02)
+[Iteration 1] time: 64.839016 [s]
+---; 0.296033; 43.128013; 15.652769; 0.413776; 64.839016
+
+--- Variant 4 ---
+Times for: size: 2000000000; threads: 44; buckets: 100
+[VERIFICATION] Success: Sorted, Count matches (2000000000), Sum matches (delta: -2.272500e+02)
+[Iteration 1] time: 68.846434 [s]
+---; 0.290707; 48.524371; 14.227296; 0.460569; 68.846434
+
+--- Variant 4 ALIGNED ---
+Times for: size: 2000000000; threads: 44; buckets: 100
+[VERIFICATION] Success: Sorted, Count matches (2000000000), Sum matches (delta: -2.532500e+02)
+[Iteration 1] time: 48.939894 [s]
+---; 0.290321; 28.546107; 14.302769; 0.458910; 48.939894
+
+=== THREADS: 46 ===
+--- Variant 2 ---
+Times for (LOCKS): size: 2000000000; threads: 46; buckets: 100
+[VERIFICATION] Success: Sorted, Count matches (2000000000), Sum matches (delta: 3.456250e+02)
+[Iteration 1] time: 138.671983 [s]
+---; 0.294095; 118.182754; 14.437096; 0.410523; 138.671983
+
+--- Variant 2 ALIGNED ---
+Times for (LOCKS): size: 2000000000; threads: 46; buckets: 100
+[VERIFICATION] Success: Sorted, Count matches (2000000000), Sum matches (delta: -2.695000e+02)
+[Iteration 1] time: 64.815755 [s]
+---; 0.288327; 42.963723; 15.810390; 0.403286; 64.815755
+
+--- Variant 4 ---
+Times for: size: 2000000000; threads: 46; buckets: 100
+[VERIFICATION] Success: Sorted, Count matches (2000000000), Sum matches (delta: 9.217500e+02)
+[Iteration 1] time: 68.986565 [s]
+---; 0.285287; 48.415777; 14.500851; 0.442108; 68.986565
+
+--- Variant 4 ALIGNED ---
+Times for: size: 2000000000; threads: 46; buckets: 100
+[VERIFICATION] Success: Sorted, Count matches (2000000000), Sum matches (delta: 1.251250e+02)
+[Iteration 1] time: 50.408054 [s]
+---; 0.286380; 29.618983; 14.678603; 0.479803; 50.408054
+
+=== THREADS: 48 ===
+--- Variant 2 ---
+Times for (LOCKS): size: 2000000000; threads: 48; buckets: 100
+[VERIFICATION] Success: Sorted, Count matches (2000000000), Sum matches (delta: 7.812500e+01)
+[Iteration 1] time: 140.437061 [s]
+---; 0.279486; 120.076530; 14.301718; 0.423668; 140.437061
+
+--- Variant 2 ALIGNED ---
+Times for (LOCKS): size: 2000000000; threads: 48; buckets: 100
+[VERIFICATION] Success: Sorted, Count matches (2000000000), Sum matches (delta: 8.305000e+02)
+[Iteration 1] time: 65.121315 [s]
+---; 0.275822; 43.140791; 15.923226; 0.435114; 65.121315
+
+--- Variant 4 ---
+Times for: size: 2000000000; threads: 48; buckets: 100
+[VERIFICATION] Success: Sorted, Count matches (2000000000), Sum matches (delta: 8.060000e+02)
+[Iteration 1] time: 69.637018 [s]
+---; 0.281005; 48.940045; 14.628336; 0.442973; 69.637018
+
+--- Variant 4 ALIGNED ---
+Times for: size: 2000000000; threads: 48; buckets: 100
+[VERIFICATION] Success: Sorted, Count matches (2000000000), Sum matches (delta: 1.257125e+03)
+[Iteration 1] time: 50.735301 [s]
+---; 0.278120; 29.893568; 14.707666; 0.502277; 50.735301
+
